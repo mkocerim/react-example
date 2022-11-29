@@ -5,7 +5,7 @@ const initialState = {
   token: null,
 };
 
-function reducer(state = initialState, action) {
+function authReducer(state = initialState, action) {
   switch (action.type) {
     case SET_TOKEN:
       return {
@@ -22,4 +22,4 @@ function reducer(state = initialState, action) {
   }
 }
 
-export default reducer;
+export default authReducer;
